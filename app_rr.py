@@ -3,7 +3,6 @@ import streamlit as st
 import webbrowser as wb
 
 
-foto_file=open('img\BAURU.jpg','rb').read()
 
 df=pd.read_excel('produtos_rr.xlsx')
 df.head(1)
