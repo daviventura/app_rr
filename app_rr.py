@@ -3,7 +3,6 @@ import streamlit as st
 import webbrowser as wb
 
 
-video_file=open('video/rer2 (1).mp4','rb')
 foto_file=open('img\BAURU.jpg','rb').read()
 
 df=pd.read_excel('produtos_rr.xlsx')
