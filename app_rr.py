@@ -5,7 +5,6 @@ import webbrowser as wb
 
 
 df=pd.read_excel('produtos_rr.xlsx')
-df.head(1)
 
 tipos=df['Tipo'].unique()
 tipo=st.selectbox(label='Combo, Salgada ou Copinho?',
